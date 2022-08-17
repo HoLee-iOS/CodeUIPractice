@@ -13,6 +13,8 @@
 		C14A7BC528ACC01D009D525C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14A7BC328ACC01D009D525C /* Main.storyboard */; };
 		C14A7BC728ACC01D009D525C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14A7BC628ACC01D009D525C /* Assets.xcassets */; };
 		C14A7BCA28ACC01D009D525C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14A7BC828ACC01D009D525C /* LaunchScreen.storyboard */; };
+		C14A7BD228ACC05C009D525C /* KakaoUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A7BD128ACC05C009D525C /* KakaoUIViewController.swift */; };
+		C14A7BD528ACC3B2009D525C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C14A7BD428ACC3B2009D525C /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		C14A7BC628ACC01D009D525C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C14A7BC928ACC01D009D525C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C14A7BCB28ACC01D009D525C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C14A7BD128ACC05C009D525C /* KakaoUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14A7BD528ACC3B2009D525C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +67,7 @@
 				C14A7BC628ACC01D009D525C /* Assets.xcassets */,
 				C14A7BC828ACC01D009D525C /* LaunchScreen.storyboard */,
 				C14A7BCB28ACC01D009D525C /* Info.plist */,
+				C14A7BD128ACC05C009D525C /* KakaoUIViewController.swift */,
 			);
 			path = CodeUIPractice;
 			sourceTree = "<group>";
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = CodeUIPractice;
+			packageProductDependencies = (
+				C14A7BD428ACC3B2009D525C /* SnapKit */,
+			);
 			productName = CodeUIPractice;
 			productReference = C14A7BBA28ACC01D009D525C /* CodeUIPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = C14A7BB128ACC01D009D525C;
+			packageReferences = (
+				C14A7BD328ACC3B2009D525C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = C14A7BBB28ACC01D009D525C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,6 +151,7 @@
 			files = (
 				C14A7BC228ACC01D009D525C /* ViewController.swift in Sources */,
 				C14A7BBE28ACC01D009D525C /* AppDelegate.swift in Sources */,
+				C14A7BD228ACC05C009D525C /* KakaoUIViewController.swift in Sources */,
 				C14A7BC028ACC01D009D525C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +370,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C14A7BD328ACC3B2009D525C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C14A7BD428ACC3B2009D525C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C14A7BD328ACC3B2009D525C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C14A7BB228ACC01D009D525C /* Project object */;
 }
