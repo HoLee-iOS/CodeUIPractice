@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        let vc = KakaoUIViewController()
+        let vc = BaeminViewController()
         vc.modalPresentationStyle = .overFullScreen
         present(vc, animated: true)
     }

@@ -15,6 +15,7 @@
 		C14A7BCA28ACC01D009D525C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14A7BC828ACC01D009D525C /* LaunchScreen.storyboard */; };
 		C14A7BD228ACC05C009D525C /* KakaoUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A7BD128ACC05C009D525C /* KakaoUIViewController.swift */; };
 		C14A7BD528ACC3B2009D525C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C14A7BD428ACC3B2009D525C /* SnapKit */; };
+		C14A7BD828ACEE73009D525C /* BaeminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A7BD728ACEE73009D525C /* BaeminViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C14A7BC928ACC01D009D525C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C14A7BCB28ACC01D009D525C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C14A7BD128ACC05C009D525C /* KakaoUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoUIViewController.swift; sourceTree = "<group>"; };
+		C14A7BD728ACEE73009D525C /* BaeminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaeminViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				C14A7BC828ACC01D009D525C /* LaunchScreen.storyboard */,
 				C14A7BCB28ACC01D009D525C /* Info.plist */,
 				C14A7BD128ACC05C009D525C /* KakaoUIViewController.swift */,
+				C14A7BD728ACEE73009D525C /* BaeminViewController.swift */,
 			);
 			path = CodeUIPractice;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				C14A7BBE28ACC01D009D525C /* AppDelegate.swift in Sources */,
 				C14A7BD228ACC05C009D525C /* KakaoUIViewController.swift in Sources */,
 				C14A7BC028ACC01D009D525C /* SceneDelegate.swift in Sources */,
+				C14A7BD828ACEE73009D525C /* BaeminViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
