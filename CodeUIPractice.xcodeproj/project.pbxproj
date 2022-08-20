@@ -16,6 +16,13 @@
 		C14A7BD228ACC05C009D525C /* KakaoUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A7BD128ACC05C009D525C /* KakaoUIViewController.swift */; };
 		C14A7BD528ACC3B2009D525C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C14A7BD428ACC3B2009D525C /* SnapKit */; };
 		C14A7BD828ACEE73009D525C /* BaeminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A7BD728ACEE73009D525C /* BaeminViewController.swift */; };
+		C14B357728B0D36D004FD6B8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B357628B0D36D004FD6B8 /* BaseViewController.swift */; };
+		C14B357A28B0D4B8004FD6B8 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = C14B357928B0D4B8004FD6B8 /* Toast */; };
+		C14B357C28B0D5A4004FD6B8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B357B28B0D5A4004FD6B8 /* BaseView.swift */; };
+		C14B357E28B0D70D004FD6B8 /* NetflixMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B357D28B0D70D004FD6B8 /* NetflixMainViewController.swift */; };
+		C14B358128B0D75E004FD6B8 /* NetflixMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B358028B0D75E004FD6B8 /* NetflixMainView.swift */; };
+		C14B358428B0DC84004FD6B8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B358328B0DC84004FD6B8 /* CustomButton.swift */; };
+		C14B358828B0F6AB004FD6B8 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B358728B0F6AB004FD6B8 /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,12 @@
 		C14A7BCB28ACC01D009D525C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C14A7BD128ACC05C009D525C /* KakaoUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoUIViewController.swift; sourceTree = "<group>"; };
 		C14A7BD728ACEE73009D525C /* BaeminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaeminViewController.swift; sourceTree = "<group>"; };
+		C14B357628B0D36D004FD6B8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C14B357B28B0D5A4004FD6B8 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		C14B357D28B0D70D004FD6B8 /* NetflixMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixMainViewController.swift; sourceTree = "<group>"; };
+		C14B358028B0D75E004FD6B8 /* NetflixMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixMainView.swift; sourceTree = "<group>"; };
+		C14B358328B0DC84004FD6B8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C14B358728B0F6AB004FD6B8 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14B357A28B0D4B8004FD6B8 /* Toast in Frameworks */,
 				C14A7BD528ACC3B2009D525C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +76,8 @@
 		C14A7BBC28ACC01D009D525C /* CodeUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				C14B357F28B0D744004FD6B8 /* Netflix */,
+				C14B357528B0D360004FD6B8 /* Utility */,
 				C14A7BBD28ACC01D009D525C /* AppDelegate.swift */,
 				C14A7BBF28ACC01D009D525C /* SceneDelegate.swift */,
 				C14A7BC128ACC01D009D525C /* ViewController.swift */,
@@ -73,6 +89,34 @@
 				C14A7BD728ACEE73009D525C /* BaeminViewController.swift */,
 			);
 			path = CodeUIPractice;
+			sourceTree = "<group>";
+		};
+		C14B357528B0D360004FD6B8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C14B358228B0DC58004FD6B8 /* CustomView */,
+				C14B357628B0D36D004FD6B8 /* BaseViewController.swift */,
+				C14B357B28B0D5A4004FD6B8 /* BaseView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C14B357F28B0D744004FD6B8 /* Netflix */ = {
+			isa = PBXGroup;
+			children = (
+				C14B357D28B0D70D004FD6B8 /* NetflixMainViewController.swift */,
+				C14B358028B0D75E004FD6B8 /* NetflixMainView.swift */,
+			);
+			path = Netflix;
+			sourceTree = "<group>";
+		};
+		C14B358228B0DC58004FD6B8 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C14B358328B0DC84004FD6B8 /* CustomButton.swift */,
+				C14B358728B0F6AB004FD6B8 /* CustomImageView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +137,7 @@
 			name = CodeUIPractice;
 			packageProductDependencies = (
 				C14A7BD428ACC3B2009D525C /* SnapKit */,
+				C14B357928B0D4B8004FD6B8 /* Toast */,
 			);
 			productName = CodeUIPractice;
 			productReference = C14A7BBA28ACC01D009D525C /* CodeUIPractice.app */;
@@ -124,6 +169,7 @@
 			mainGroup = C14A7BB128ACC01D009D525C;
 			packageReferences = (
 				C14A7BD328ACC3B2009D525C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				C14B357828B0D4B8004FD6B8 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 			);
 			productRefGroup = C14A7BBB28ACC01D009D525C /* Products */;
 			projectDirPath = "";
@@ -152,11 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14B358828B0F6AB004FD6B8 /* CustomImageView.swift in Sources */,
+				C14B357E28B0D70D004FD6B8 /* NetflixMainViewController.swift in Sources */,
 				C14A7BC228ACC01D009D525C /* ViewController.swift in Sources */,
 				C14A7BBE28ACC01D009D525C /* AppDelegate.swift in Sources */,
 				C14A7BD228ACC05C009D525C /* KakaoUIViewController.swift in Sources */,
+				C14B358428B0DC84004FD6B8 /* CustomButton.swift in Sources */,
 				C14A7BC028ACC01D009D525C /* SceneDelegate.swift in Sources */,
+				C14B357C28B0D5A4004FD6B8 /* BaseView.swift in Sources */,
 				C14A7BD828ACEE73009D525C /* BaeminViewController.swift in Sources */,
+				C14B358128B0D75E004FD6B8 /* NetflixMainView.swift in Sources */,
+				C14B357728B0D36D004FD6B8 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +436,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		C14B357828B0D4B8004FD6B8 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -391,6 +451,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C14A7BD328ACC3B2009D525C /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		C14B357928B0D4B8004FD6B8 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C14B357828B0D4B8004FD6B8 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

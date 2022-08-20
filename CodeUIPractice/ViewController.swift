@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        let vc = BaeminViewController()
+        let vc = NetflixMainViewController()
         vc.modalPresentationStyle = .overFullScreen
         present(vc, animated: true)
     }
